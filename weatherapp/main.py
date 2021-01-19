@@ -14,8 +14,8 @@ class AddLocationForm(BoxLayout):
 
     def found_location(self):
         cities = ["{} ({})".format(d['name'], d['sys']['country'])
-            for d in data['list']]
-        print("\n".join(cities))
+            for d in data['list']]:
+                print("\n".join(cities))
 
 class WeatherApp(App):
     pass
